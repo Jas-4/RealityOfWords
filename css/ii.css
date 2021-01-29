@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: consolas;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction:column;
+    background: darkblue;
+}
+a {
+    position:relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    columns: #03e9f0;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}

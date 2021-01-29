@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'popins',sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background:radial-gradient(cornsilk,rgb(179,202,245));
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+section h1{
+    margin-top: 200px;
+    color:navy;
+    font-size: 60px;
+    text-align: center;
+}
+section.logo{
+    width: 20%;
+    display:flex;
+    margin-left:100px;
+    justify-content:left;
+    align-items:left ;    
+} 
+section .logo img{
+    width:30%;
+    height:20%;
+    border:3px solid navy;
+    border-radius: 50px;
+    margin-top: 200px;
+    margin-left:-700px;
+   align-items: left;
+   display: flex;
+}
