@@ -10,7 +10,6 @@ section{
     height: 100vh;
     background:radial-gradient(cornsilk,rgb(179,202,245));
     overflow: hidden;
-    display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -18,6 +17,62 @@ section h1{
     margin-top: 250px;
     color:navy;
     font-size: 60px;
+}
+section h2 {
+    text-align: center;
+    margin-top: 100px;
+
+}
+a{
+    position: relative;
+    padding: 10px 30px;
+    color:darkred;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    font-size: 45px;
+
+}
+a:hover{
+    background: navy;
+    color:firebrick;
+    box-shadow: 0 0 15px navy;
+     transition-delay: 0.5s ;
+}
+a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid darkred;
+    border-left: 5px solid darkred;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+a:hover:before{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+a:after{
+    content: '';
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid darkred;
+    border-right: 5px solid darkred;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+a:hover:after{
+    width: 100%;
+    height:100%;
+    transition-delay: 0s;
 }
 section .set{
     position:absolute;
